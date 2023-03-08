@@ -22,6 +22,15 @@
     .archive-year {
         margin-top: 20px;
     }
+    
+    /* meetup */
+    .meetup-month {
+        flex-direction: column;
+    }
+
+    .meetup-year {
+        margin-top: 20px;
+    }
 
     /* footer */
     .footer {

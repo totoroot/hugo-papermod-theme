@@ -1,0 +1,44 @@
+.meetup-posts {
+    width: 100%;
+    font-size: 16px;
+}
+
+.meetup-year {
+    margin-top: 40px;
+}
+
+.meetup-year:not(:last-of-type) {
+    border-bottom: 2px solid var(--border);
+}
+
+.meetup-month {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 0;
+}
+
+.meetup-month-header {
+    margin: 25px 0;
+    width: 200px;
+}
+
+.meetup-month:not(:last-of-type) {
+    border-bottom: 1px solid var(--border);
+}
+
+.meetup-entry {
+    position: relative;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.meetup-entry-title {
+    margin: 5px 0;
+    font-weight: 400;
+}
+
+.meetup-count,
+.meetup-meta {
+    color: var(--secondary);
+    font-size: 14px;
+}
